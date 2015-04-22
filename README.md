@@ -2,7 +2,7 @@
 
 *Variant files to add support of Alligator Board in your arduino IDE Software*
 
-Support Arduino IDE:
+Supported Arduino IDE:
 - **Arduino 1.6.3**
 - **Arduino 1.5.8**
 
