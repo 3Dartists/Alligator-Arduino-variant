@@ -27,4 +27,4 @@
   
 4. run Arduino software and select : 
 
-  Tools -> Board -> Alligator 3D Printer Board R2 ( Native USB Port)
+  Tools -> Board -> Alligator Bord R2 3D Printer controller (USB/MCU native)
