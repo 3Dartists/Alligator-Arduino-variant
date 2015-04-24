@@ -47,7 +47,7 @@ arduino_due_x.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
 arduino_due_x.build.vid=0x2341
 arduino_due_x.build.pid=0x003e
 
-alligator_r2_dbg.name=Alligator Bord R2 3D Printer controller (USB/MCU native)
+alligator_r2_dbg.name=Alligator Bord R2 3D Printer controller (USB/UART)
 alligator_r2_dbg.vid.0=0x2341
 alligator_r2_dbg.pid.0=0x003d
 alligator_r2_dbg.vid.1=0x2A03
@@ -71,7 +71,7 @@ alligator_r2_dbg.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
 alligator_r2_dbg.build.vid=0x2341
 alligator_r2_dbg.build.pid=0x003e
 
-alligator_r2.name=Alligator Bord R2 3D Printer controller (UART/MCU)
+alligator_r2.name=Alligator Bord R2 3D Printer controller (USB/MCU native)
 alligator_r2.vid.0=0x2341
 alligator_r2.pid.0=0x003e
 alligator_r2.vid.1=0x2A03
