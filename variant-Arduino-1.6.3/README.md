@@ -25,6 +25,23 @@
   - Replace the file **/Users/user_name/Library/Arduino15/packages/arduino/hardware/sam/1.6.3/boards.txt**
     with the file **variant-Arduino-1.6.3\boards.txt**
   
-4. run Arduino software and select : 
+4. ERASE flash memory and upload code
 
-  Tools -> Board -> Alligator Bord R2 3D Printer controller (USB/MCU native)
+  Uploading code to the SAM3X is different than the AVR microcontrollers found in other boards because the flash memory   needs to be erased before being re-programmed. Upload to the chip is managed by ROM on the SAM3X, which is run only when the chip's flash memory is empty.
+
+  The dip switch near the processor is responsable for the manual flash erase procedure :
+
+    - Dip switch toward drivers engine
+    - Press the reset button
+    - Waiting for 1 second
+    - Dip-switch toward processor
+    - Press the reset button
+    - upload code
+
+
+
+  
+ **WARNING : Native port has OTG function, they are directly connected to 5V power !** <br>
+ **Do not connect Native USB port to the PC in presence of 12-24V power input.** <br>
+ **Communicate with Alligator and with your printer only from the USB/UART port.** <br>
+ **Native port connected directly to the PC can be used only for board testing without 12-24V power input (for expert users only!)**
