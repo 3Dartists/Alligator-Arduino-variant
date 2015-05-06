@@ -28,9 +28,20 @@ Supported Arduino IDE:
 
 3. run Arduino software and select : 
 
-  Tools -> Board -> Alligator 3D Printer Board R2 ( Native USB Port)
+  Tools -> Board -> Alligator 3D Printer Board R2 ( USB /UART)
 
+4. ERASE flash memory and upload code
 
+  Uploading code to the SAM3X is different than the AVR microcontrollers found in other boards because the flash memory   needs to be erased before being re-programmed. Upload to the chip is managed by ROM on the SAM3X, which is run only when the chip's flash memory is empty.
+
+  The dip switch near the processor is responsable for the manual flash erase procedure :
+
+    - Dip switch toward drivers engine
+    - Press the reset button
+    - Waiting for 1 second
+    - Dip-switch toward processor
+    - Press the reset button
+    - upload code
 
 ### Install Alligator support on Arduino 1.6.3
 
@@ -55,6 +66,22 @@ Supported Arduino IDE:
   - Replace the file **/Users/user_name/Library/Arduino15/packages/arduino/hardware/sam/1.6.3/boards.txt**
     with the file **variant-Arduino-1.6.3\boards.txt**
   
-4. run Arduino software and select : 
+4. ERASE flash memory and upload code
 
-  Tools -> Board -> Alligator 3D Printer Board R2 ( Native USB Port)
+  Uploading code to the SAM3X is different than the AVR microcontrollers found in other boards because the flash memory   needs to be erased before being re-programmed. Upload to the chip is managed by ROM on the SAM3X, which is run only when the chip's flash memory is empty.
+
+  The dip switch near the processor is responsable for the manual flash erase procedure :
+
+    - Dip switch toward drivers engine
+    - Press the reset button
+    - Waiting for 1 second
+    - Dip-switch toward processor
+    - Press the reset button
+    - upload code
+
+
+  
+ **WARNING : Native port has OTG function, they are directly connected to 5V power !
+  Do not connect Native USB port to the PC in presence of 12-24V power input.
+  Communicate with Alligator and with your printer only from the USB/UART port.
+  Native port connected directly to the PC can be used only for board testing without 12-24V power input (for expert users only!)**
