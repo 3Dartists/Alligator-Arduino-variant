@@ -81,7 +81,7 @@ Supported Arduino IDE:
 
 
   
- **WARNING for Alligator SN less than #77 : Native port are directly connected to 5V power !** <br>
+ **WARNING only for Alligator SN less than #77 : Native port are directly connected to 5V power !** <br>
  **Do not connect Native USB port to the PC in presence of 12-24V power input.** <br>
  **Communicate with Alligator and with your printer only from the USB/UART port.** <br>
  **Native port connected directly to the PC can be used only for board testing without 12-24V power input (for expert users only!)**
