@@ -2,19 +2,30 @@
 
 *Variant files to add support of Alligator Board in your arduino IDE Software*
 
+### Install Alligator support on Arduino 1.6.3
 
-### Instruction
+1. Install Arduino 1.6.3
+2. run Arduino software
+  - navigate to Tools -> Board -> Boards Manager 
+  - install *Arduino SAM Boards (32-bits ARM Cortex-M3)*
+  - close Arduino Software
+3. Navigate on your Arduino package directory and copy Alligator variant files:
 
-1. Install Arduino 1.6.6 or Arduino 1.6.7
-2. Open Arduino Software and navigate to Arduino -> Preferences 
-   - add Alligator package link in the *Additional Board Manager URL* : (http://www.chew-z.it/download/alligator/package_Alligator_r2_index.json)
-3. Open Tools -> Board -> Board Manager
-4. Install Alligator 3D Artists Package
-5. Select Alligator Board: 
+  ##### For Windows:
+  - Copy **alligator_r2** directory to 
+  **C:\Users\user_name\AppData\Roaming\Arduino15\packages\arduino\hardware\sam\1.6.3\variants\**
 
-  Tools -> Board -> Alligator 3D Printer Board R2 ( USB /UART)
+  - Replace the file **C:\Users\user_name\AppData\Roaming\Arduino15\packages\arduino\hardware\sam\1.6.3\boards.txt**
+    with the file **variant-Arduino-1.6.3\boards.txt**
+
+  ##### For Mac OSX:
+  - Copy *alligator_r2* directory to 
+  **/Users/user_name/Library/Arduino15/packages/arduino/hardware/sam/1.6.3/variants/**
+
+  - Replace the file **/Users/user_name/Library/Arduino15/packages/arduino/hardware/sam/1.6.3/boards.txt**
+    with the file **variant-Arduino-1.6.3\boards.txt**
   
-6. ERASE flash memory and upload code
+4. ERASE flash memory and upload code
 
   Uploading code to the SAM3X is different than the AVR microcontrollers found in other boards because the flash memory   needs to be erased before being re-programmed. Upload to the chip is managed by ROM on the SAM3X, which is run only when the chip's flash memory is empty.
 
@@ -26,6 +37,7 @@
     - Dip-switch toward processor
     - Press the reset button
     - upload code
+
 
 
   
