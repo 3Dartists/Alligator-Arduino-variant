@@ -5,13 +5,14 @@
 
 ### Instruction
 
-1. Install Arduino 1.6.6 or Arduino 1.6.7
-2. Open Arduino Software and navigate to Arduino -> Preferences 
-   - add Alligator package link in the *Additional Board Manager URL* : (http://www.chew-z.it/download/alligator/package_Alligator_r2_index.json)
-    <img src="./doc/img/pref.png" width="500" />
+1. Install **Arduino 1.6.6** or **Arduino 1.6.7**
+2. Open Arduino Software and navigate to **Arduino -> Preferences** 
+   - add Alligator package link in the **Additional Board Manager URL** 
+   - http://www.chew-z.it/download/alligator/package_Alligator_r2_index.json
+   - <img src="./doc/img/pref.png" width="500" />
 3. Open Tools -> Board -> Board Manager
    - <img src="./doc/img/board.png" width="500" />
-4. Install Alligator 3D Artists Package
+4. Install the **Alligator 3D Artists Package**
    - <img src="./doc/img/board_manager.png" width="500" />
 5. Select Alligator Board: 
 
