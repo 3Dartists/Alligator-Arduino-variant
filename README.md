@@ -41,8 +41,9 @@
 **Communicate with Alligator and with your printer only from the USB/UART port.** <br>
 **Native port connected directly to the PC can be used only for board testing without 12-24V power input**
  
-    - How To Find **SN** ?
-    
-    Serial Number label is located on the bottom of the board:
-    
-    <img src="./doc/img/sn.png" width="250" />
+ 
+   - How To Find **SN** ?
+   
+   Serial Number label is located on the bottom of the board:
+ 
+   <img src="./doc/img/sn.png" width="250" />
