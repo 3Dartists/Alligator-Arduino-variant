@@ -19,8 +19,11 @@
   **Tools -> Board -> Alligator 3D Printer Board R2 (USB/UART) or (NATIVE/USB)**
   
 6. **ERASE** flash memory and upload code
-
+ 
   Uploading code to the SAM3X is different than the AVR microcontrollers found in other boards because the flash memory   needs to be erased before being re-programmed. Upload to the chip is managed by ROM on the SAM3X, which is run only when the chip's flash memory is empty.
+
+  *This procedure is only required for the UART port, the NATIVE port has automatic erase flash functions via usb*
+
 
   The dip switch near the processor is responsable for the manual flash erase procedure :
 
@@ -33,10 +36,10 @@
 
 
   
- **WARNING only for Alligator SN less than #77 : Native port are directly connected to 5V power !** <br>
- **Do not connect Native USB port to the PC in presence of 12-24V power input.** <br>
- **Communicate with Alligator and with your printer only from the USB/UART port.** <br>
- **Native port connected directly to the PC can be used only for board testing without 12-24V power input**
+**WARNING only for Alligator SN less than #77 : Native port are directly connected to 5V power !** <br>
+**Do not connect Native USB port to the PC in presence of 12-24V power input.** <br>
+**Communicate with Alligator and with your printer only from the USB/UART port.** <br>
+**Native port connected directly to the PC can be used only for board testing without 12-24V power input**
  
     - How To Find **SN** ?
     
