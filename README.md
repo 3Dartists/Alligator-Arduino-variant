@@ -4,7 +4,7 @@
 
 The source of this repository has moved to: https://bitbucket.org/MarcoAntonini/alligator-arduino-support
 
-### Instruction
+### Installation Instruction
 
 1. Install **Arduino** latest versions (now **1.8.2**).
 2. Open Arduino Software and navigate to **Arduino -> Preferences** 
