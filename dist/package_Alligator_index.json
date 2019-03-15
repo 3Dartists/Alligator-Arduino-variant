@@ -1,0 +1,371 @@
+{
+  "packages": [
+    {
+      "name": "3D_Artists",
+      "maintainer": "3D Artists",
+      "websiteURL": "http://www.3dartists.org",
+      "email": "",
+      "help": {
+        "online": "http://www.3dartists.org"
+      },
+      "platforms": [
+          {
+            "name": "Alligator 3D Printer Board",
+            "architecture": "sam",
+            "version": "1.6.6",
+         	"category": "3D Artists",
+            "help": {
+              "online": "http://www.3dartists.org"
+            },
+            "url": "http://www.chew-z.it/download/alligator/dist/alligator_1.6.6.tar.gz",
+            "archiveFileName": "alligator_1.6.6.tar.gz",
+          "checksum":"SHA-256:19b39f3be46b0a66b1e480c880d0fd47ea2235072f05ae4e662f804ecd5f6878",
+          "size":"39136198",
+            "boards": [
+              {"name": "Alligator R1"},
+              {"name": "Alligator R2"},
+              {"name": "Alligator R3"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.6.1-arduino"
+              }
+            ]
+          },
+          {
+            "name": "Alligator 3D Printer Board",
+            "architecture": "sam",
+            "version": "1.6.7",
+            "category": "3D Artists",
+            "help": {
+              "online": "http://www.3dartists.org"
+            },
+            "url": "http://www.chew-z.it/download/alligator/dist/alligator_1.6.7.tar.gz",
+            "archiveFileName": "alligator_1.6.7.tar.gz",
+          "checksum":"SHA-256:66acc9a413120c90fe381a005a9823ce73c4a4388634c05fdefefb56e3e82a98",
+          "size":"39138154",
+            "boards": [
+              {"name": "Alligator R1"},
+              {"name": "Alligator R2"},
+              {"name": "Alligator R3"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.6.1-arduino"
+              }
+            ]
+          },
+          {
+            "name": "Alligator 3D Printer Board",
+            "architecture": "sam",
+            "version": "1.6.8",
+            "category": "3D Artists",
+            "help": {
+              "online": "http://www.3dartists.org"
+            },
+            "url": "http://www.chew-z.it/download/alligator/dist/alligator_1.6.8.tar.gz",
+            "archiveFileName": "alligator_1.6.8.tar.gz",
+          "checksum":"SHA-256:23afff5c1f1a2dbe93a78637c3c8d6d038be14150501e813de6ec7e0c971b99c",
+          "size":"39138904",
+            "boards": [
+              {"name": "Alligator R1"},
+              {"name": "Alligator R2"},
+              {"name": "Alligator R3"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.6.1-arduino"
+              }
+            ]
+          },
+          {
+            "name": "Alligator 3D Printer Board",
+            "architecture": "sam",
+            "version": "1.6.9",
+            "category": "3D Artists",
+            "help": {
+              "online": "http://www.3dartists.org"
+            },
+            "url": "http://www.chew-z.it/download/alligator/dist/alligator_1.6.9.tar.gz",
+            "archiveFileName": "alligator_1.6.9.tar.gz",
+          "checksum":"SHA-256:0958964337899c214137c79f02330e10c91900061f6e75e3a81fac543a8de401",
+          "size":"39139298",
+            "boards": [
+              {"name": "Alligator R1"},
+              {"name": "Alligator R2"},
+              {"name": "Alligator R3"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.6.1-arduino"
+              }
+            ]
+          },
+          {
+            "name": "Alligator 3D Printer Board",
+            "architecture": "sam",
+            "version": "1.6.11",
+            "category": "3D Artists",
+            "help": {
+              "online": "http://www.3dartists.org"
+            },
+            "url": "http://www.chew-z.it/download/alligator/dist/alligator_1.6.11.tar.gz",
+            "archiveFileName": "alligator_1.6.11.tar.gz",
+          "checksum":"SHA-256:bc29937416ef271c4c37d3f701c3a1825d77f8045397f971690fcf22f08673bf",
+          "size":"39164584",
+            "boards": [
+              {"name": "Alligator R1"},
+              {"name": "Alligator R2"},
+              {"name": "Alligator R3"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.6.1-arduino"
+              }
+            ]
+          }
+      ],
+      "tools":[
+          {
+            "name": "arm-none-eabi-gcc",
+            "version": "4.8.3-2014q1",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                "url": "http://www.chew-z.it/download/alligator/tools/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                "size": "84537449"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "http://www.chew-z.it/download/alligator/tools/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                "size": "52518522"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                "size": "51395093"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                "size": "51029223"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.3a-arduino",
+            "systems": [
+              {
+                "host": "i686-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
+                "archiveFileName": "bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
+                "checksum": "SHA-256:d6d10362f40729a7877e43474fcf02ad82cf83321cc64ca931f5c82b2d25d24f",
+                "size": "147359"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
+                "archiveFileName": "bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
+                "checksum": "SHA-256:c1daed033251296768fa8b63ad283e053da93427c0f3cd476a71a9188e18442c",
+                "size": "26179"
+              },
+              {
+                "host": "i686-mingw32",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.3a-arduino-i686-mingw32.tar.bz2",
+                "archiveFileName": "bossac-1.3a-arduino-i686-mingw32.tar.bz2",
+                "checksum": "SHA-256:a37727622e0f86cb4f2856ad0209568a5d804234dba3dc0778829730d61a5ec7",
+                "size": "265647"
+              },
+              {
+                "host": "i386-apple-darwin11",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
+                "archiveFileName": "bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
+                "checksum": "SHA-256:40770b225753e7a52bb165e8f37e6b760364f5c5e96048168d0178945bd96ad6",
+                "size": "39475"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.5-arduino",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.5-arduino2-mingw32.tar.gz",
+                "archiveFileName": "bossac-1.5-arduino2-mingw32.tar.gz",
+                "checksum": "SHA-256:9d849a34f0b26c25c6a8c4d741cd749dea238cade73b57a3048f248c431d9cc9",
+                "size": "222283"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.5-arduino2-i386-apple-darwin14.3.0.tar.gz",
+                "archiveFileName": "bossac-1.5-arduino2-i386-apple-darwin14.3.0.tar.gz",
+                "checksum": "SHA-256:8f07e50a1f887cb254092034c6a4482d73209568cd83cb624d6625d66794f607",
+                "size": "64120"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.5-arduino2-x86_64-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.5-arduino2-x86_64-linux-gnu.tar.gz",
+                "checksum": "SHA-256:42785329155dcb39872d4d30a2a9d31e0f0ce3ae7e34a3ed3d840cbc909c4657",
+                "size": "30431"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.5-arduino2-i486-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.5-arduino2-i486-linux-gnu.tar.gz",
+                "checksum": "SHA-256:ac56e553bbd6d992fa5592ace90996806230ab582f2bf9f8590836fec9dabef6",
+                "size": "29783"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.6-arduino",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6-arduino-mingw32.tar.gz",
+                "archiveFileName": "bossac-1.6-arduino-mingw32.tar.gz",
+                "checksum": "SHA-256:b59d64d3f7a43c894d0fba2dd1241bbaeefedf8c902130a24d8ec63b08f9ff6a",
+                "size": "222517"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6-arduino-i386-apple-darwin14.4.0.tar.gz",
+                "archiveFileName": "bossac-1.6-arduino-i386-apple-darwin14.4.0.tar.gz",
+                "checksum": "SHA-256:6b3b686a782b6587c64c85db80085c9089c5ea1b051e49e5af17b3c6109c8efa",
+                "size": "64538"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6-arduino-x86_64-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.6-arduino-x86_64-linux-gnu.tar.gz",
+                "checksum": "SHA-256:2ce7a54d609b4ce3b678147202b2556dd1ce5b318de48a018c676521b994c7a7",
+                "size": "30649"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6-arduino-i486-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.6-arduino-i486-linux-gnu.tar.gz",
+                "checksum": "SHA-256:5c320bf5cfdbf03e3f648642e6de325e459a061fcf96b2215cb955263f7467b2",
+                "size": "30072"
+              }
+            ]
+          },
+          {
+            "name": "bossac",
+            "version": "1.6.1-arduino",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6.1-arduino-mingw32.tar.gz",
+                "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
+                "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b",
+                "size": "222918"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa",
+                "size": "64587"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db",
+                "size": "30869"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92",
+                "size": "30320"
+              }
+            ]
+          },
+          {
+            "name": "CMSIS",
+            "version": "4.0.0-atmel",
+            "systems": [
+              {
+                "host": "i686-mingw32",
+                "url": "http://www.chew-z.it/download/alligator/tools/CMSIS-4.0.0.tar.bz2",
+                "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                "size": "17642623"
+              },
+              {
+                "host": "x86_64-apple-darwin",
+                "url": "http://www.chew-z.it/download/alligator/tools/CMSIS-4.0.0.tar.bz2",
+                "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                "size": "17642623"
+              },
+              {
+                "host": "x86_64-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/CMSIS-4.0.0.tar.bz2",
+                "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                "size": "17642623"
+              },
+              {
+                "host": "i686-pc-linux-gnu",
+                "url": "http://www.chew-z.it/download/alligator/tools/CMSIS-4.0.0.tar.bz2",
+                "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                "size": "17642623"
+              }
+            ]
+          }
+      ]
+    }
+  ]
+}
