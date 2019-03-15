@@ -5,7 +5,7 @@
 
 ### Installation Instruction
 
-1. Install **Arduino** latest versions (now **1.8.2**).
+1. Install **Arduino** latest versions (now **1.8.8**).
 2. Open Arduino Software and navigate to **Arduino -> Preferences** 
    - add Alligator package link in the **Additional Board Manager URL** 
    - https://raw.githubusercontent.com/3Dartists/Alligator-Arduino-variant/master/dist/package_Alligator_index.json
