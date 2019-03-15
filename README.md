@@ -8,8 +8,8 @@
 1. Install **Arduino** latest versions (now **1.8.2**).
 2. Open Arduino Software and navigate to **Arduino -> Preferences** 
    - add Alligator package link in the **Additional Board Manager URL** 
-   - http://www.chew-z.it/download/alligator/dist/package_Alligator_index.json
-   - <img src="./doc/img/pref.png" width="500" />
+   - https://raw.githubusercontent.com/3Dartists/Alligator-Arduino-variant/master/dist/package_Alligator_index.json
+   - <img src="./doc/img/pref2.png" width="500" />
 3. Open **Tools -> Board -> Board Manager**
    - <img src="./doc/img/board.png" width="500" />
 4. Install the **Alligator 3D Artists Package**
